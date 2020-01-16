@@ -27,6 +27,11 @@ var string = "qwe"
 var newLine = "\n"
 var string2 = "hi"
 
+var names = [1, 5]
+names.removeFirst()
+names.removeFirst()
+
+
 
 
 
