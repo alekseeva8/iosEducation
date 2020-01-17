@@ -27,11 +27,17 @@ var string = "qwe"
 var newLine = "\n"
 var string2 = "hi"
 
-var names = [1, 5]
-names.removeFirst()
-names.removeFirst()
+//var names = [1, 5]
+//names.removeFirst()
+//names.removeFirst()
 
-
+let weightWatermelon = 3
+var weightMelon = 2
+var totalWeight = weightMelon+weightWatermelon
+totalWeight = weightWatermelon*weightMelon
+let weightStrawberry: Double = 0.5
+var isItHeavy:Bool = weightWatermelon > weightMelon
+let strawberryCountryOfOrigin = "Greece"
 
 
 
