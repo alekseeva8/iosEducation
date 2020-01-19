@@ -235,28 +235,10 @@ else {
 //ВАР 3 - unwrapping with guard
 //условие должно быть true, чтобы код после guard statement выполнился
 
-var text3: String? = "\u{2665}"
-// проверка наличия значения:
-if text3 != nil {
-// если есть значение -> выполнить функцию распаковки значения + печать распакованного значения
-func unwrapping() {
-  guard let textNonOptional3 = text3 else {
-            return
-        }
-//код ниже выполниться, если в guard будет true. здесь выполняется:
-  print (textNonOptional3)
-    }
-unwrapping()
-}
-// иначе -> печать "empty"
-else {
-    print ("empty")
-}
-
-// ЗДЕСЬ БЕЗ ПЕЧАТИ "empty", В СЛУЧАЕ ПУСТОГО ЗНАЧЕНИЯ
 var text5: String? = "\u{2665}"
 func unwrapping() {
   guard let textNonOptional3 = text5 else {
+    print ("empty")
             return
         }
   print (textNonOptional3)
