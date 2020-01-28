@@ -65,3 +65,14 @@ func writing(firstName: String, lastName:String) -> (String,String) {
 
  */
 
+//var arrayWithNil = ["a", nil, "b"]
+//func throwingNil (array: [String?]) -> [String] {
+//    var arrayWithoutNil = [String]()
+//    for element in array {
+//        if let element2 = element {
+//            arrayWithoutNil = arrayWithNil.append(element2)
+//        }
+//    }
+//    return arrayWithoutNil
+//}
+
